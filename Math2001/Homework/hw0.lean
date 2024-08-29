@@ -11,6 +11,6 @@ Don't forget to compare with the text version
 for clearer statements and any special instructions. -/
 
 
-@[autograded 5]
+@[autogradedProof 5]
 theorem problem1 {a b : ℚ} (h1 : a - b = 4) (h2 : a * b = 1) : (a + b) ^ 2 = 20 :=
    sorry
