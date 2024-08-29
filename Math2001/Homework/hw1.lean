@@ -12,22 +12,29 @@ available as 215HW1.pdf on blackboard.
  -/
 
 
-@[autogradedProof 5]
-theorem problem1 {p q : ℤ} (h1 : p + 4 * q = 1) (h2 : q - 1 = 2) : p = -11 := by
-  sorry
 
 @[autogradedProof 5]
-theorem problem2 {a b : ℝ} (h1 : a + 2 * b = 4) (h2 : a - b = 1) : a = 2 := by
+theorem Prob1 : (5 : ℕ) ∣ 35 := by
   sorry
 
-@[autogradedProof 5]
-theorem problem3 {x : ℤ} (hx : x ≥ 9) : x ^ 3 - 8 * x ^ 2 + 2 * x ≥ 3 := by
-  sorry
 
 @[autogradedProof 5]
-theorem problem4 {x : ℚ} : x ^ 2 - 2 * x ≥ -1 := by
+theorem Prop6 {a b c : ℤ} (h1 : a ∣ b) (h2 : a ∣ c) : a ∣ b - c := by
   sorry
 
+
 @[autogradedProof 5]
-theorem problem5 (a b : ℝ) (h1 : -b ≤ a) (h2 : a ≤ b) : a ^ 2 ≤ b ^ 2 := by
+theorem Prop8 {a b c : ℤ } (h : a ∣ b) : a ∣ b * c := by
+  sorry
+
+
+
+
+@[autogradedProof 5]
+theorem Prop9 { a d e x y : ℤ } (h1 : d ∣ a) (h2 : d ∣ b) : d ∣ (a * x + b * y) := by
+  sorry
+
+
+@[autogradedProof 5]
+theorem Prop10 { a b c : ℤ} (h1 : a ∣ b) (h2 : b ∣ c) : a ∣ c := by
   sorry
